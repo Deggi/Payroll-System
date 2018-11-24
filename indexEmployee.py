@@ -4,7 +4,7 @@ from flask import Flask,render_template,request,redirect,url_for,flash,session
 from cryptography.fernet import Fernet
 
 app=Flask(__name__)
-app.secret_key="78hhmahu"
+app.secret_key="78hhmahu1"
 key=b'6IvzllrLA1gHEBvfAmRllLf9eViK88YU_G2LuyAzWaE='
 cipher_suite = Fernet(key)
 
